@@ -21,7 +21,6 @@
         "patterns": ["@/features/*/*"]
       }
     ],
-    "linebreak-style": ["error", "unix"],
     "react/prop-types": "off",
 
     "import/order": [
@@ -38,6 +37,6 @@
 
     "jsx-a11y/anchor-is-valid": "off",
 
-    "prettier/prettier": ["error", {}, { "usePrettierrc": true }]
+    "prettier/prettier": ["error", {"endOfLine": "auto"}, { "usePrettierrc": true }]
   }
 }
